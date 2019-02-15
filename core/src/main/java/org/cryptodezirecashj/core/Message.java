@@ -325,7 +325,7 @@ public abstract class Message {
             cursor += offset + varint.getOriginalSizeInBytes();
             return varint.value;
         } catch (ArrayIndexOutOfBoundsException e) {
-            throw new ProtocolException(e);
+          //  throw new ProtocolException(e);
         }
     }
 
