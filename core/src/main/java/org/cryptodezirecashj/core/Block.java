@@ -322,7 +322,7 @@ public class Block extends Message {
             length = cursor - offset;
         }catch (Exception e){
             e.printStackTrace();
-            throw new RuntimeException(e);
+         //   throw new RuntimeException(e);
         }
     }
     
