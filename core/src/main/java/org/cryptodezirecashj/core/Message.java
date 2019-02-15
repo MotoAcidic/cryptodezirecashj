@@ -315,18 +315,18 @@ public abstract class Message {
         return new BigInteger(Utils.reverseBytes(readBytes(8)));
     }
 
-    protected long readVarInt()  {
+    protected long readVarInt() throws ProtocolException {
         return readVarInt(0);
     }
 
     protected long readVarInt(int offset) throws ProtocolException {
-        // try {
+        try {
             VarInt varint = new VarInt(payload, cursor + offset);
             cursor += offset + varint.getOriginalSizeInBytes();
             return varint.value;
-        // } catch (ArrayIndexOutOfBoundsException e) {
-        //   //  throw new ProtocolException(e);
-        // }
+        } catch (ArrayIndexOutOfBoundsException e) {
+            throw new ProtocolException(e);
+        }
     }
 
     protected byte[] readBytes(int length) throws ProtocolException {
