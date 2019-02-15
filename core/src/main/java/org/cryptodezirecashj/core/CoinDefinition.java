@@ -106,13 +106,13 @@ public class CoinDefinition {
 
     //Genesis Block Information from main.cpp: LoadBlockIndex
     static public long genesisBlockDifficultyTarget = 0x1e0ffff0;         //main.cpp: LoadBlockIndex
-    static public long genesisBlockTime = 1536963897L;                       //main.cpp: LoadBlockIndex
+    static public long genesisBlockTime = 1536963897;                       //main.cpp: LoadBlockIndex
     static public long genesisBlockNonce = 146966440;                         //main.cpp: LoadBlockIndex
     static public String genesisHash = "000005b30531c8d540e58a1a85afb65ab44028cf68f0b3d299565c9d41c3778b";  //main.cpp: hashGenesisBlock
     static public String genesisMerkleRoot = "4cc63d4be53fe2310024ff7137a755d5504abf9e94e95740288862aaa385e193";
     static public int genesisBlockValue = 0;                                                              //main.cpp: LoadBlockIndex
     //taken from the raw data of the block explorer
-    static public String genesisTxInBytes = "04ffff001d01044c50546865206d6f73742062617369632068756d616e2064657369726520697320746f206665656c206c696b6520796f752062656c6f6e672e2046697474696e6720696e20697320696d706f7274616e742";//"04ffff001d01044c5957697265642030392f4a616e2f3230313420546865204772616e64204578706572696d656e7420476f6573204c6976653a204f76657273746f636b2e636f6d204973204e6f7720416363657074696e6720426974636f696e73";   //"limecoin se convertira en una de las monedas mas segura del mercado, checa nuestros avances"
+    static public String genesisTxInBytes = "04ffff001d01044c50546865206d6f73742062617369632068756d616e2064657369726520697320746f206665656c206c696b6520796f752062656c6f6e672e2046697474696e6720696e20697320696d706f7274616e742e";//"04ffff001d01044c5957697265642030392f4a616e2f3230313420546865204772616e64204578706572696d656e7420476f6573204c6976653a204f76657273746f636b2e636f6d204973204e6f7720416363657074696e6720426974636f696e73";   //"limecoin se convertira en una de las monedas mas segura del mercado, checa nuestros avances"
     //static public String genesisTxOutBytes = "abaab9327e5b33f265c3aaeb3537b8a989cc09c1692ef106bbfa38f285e15c34";//"040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9";
     public static final String genesisTxPubKey = "048ecbad64deb2239c050a9f526fa8da7e81b78e9f9e6db810dac7c184d1b14d0aa13cb543cbfc86d4983d16a30086fd9339deaa881174abab09d345d9bc56c20d";
 
