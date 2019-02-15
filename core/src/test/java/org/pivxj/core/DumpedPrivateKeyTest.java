@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.cryptodezirecashj.core;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotSame;
@@ -25,8 +25,8 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 import org.junit.Test;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.TestNet3Params;
+import org.cryptodezirecashj.params.MainNetParams;
+import org.cryptodezirecashj.params.TestNet3Params;
 
 public class DumpedPrivateKeyTest {
 

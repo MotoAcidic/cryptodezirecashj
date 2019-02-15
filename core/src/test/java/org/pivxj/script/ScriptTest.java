@@ -15,16 +15,16 @@
  * limitations under the License.
  */
 
-package org.coin2playj.script;
+package org.cryptodezirecashj.script;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.coin2playj.core.*;
-import org.coin2playj.core.Transaction.SigHash;
-import org.coin2playj.crypto.TransactionSignature;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.TestNet3Params;
-import org.coin2playj.script.Script.VerifyFlag;
+import org.cryptodezirecashj.core.*;
+import org.cryptodezirecashj.core.Transaction.SigHash;
+import org.cryptodezirecashj.crypto.TransactionSignature;
+import org.cryptodezirecashj.params.MainNetParams;
+import org.cryptodezirecashj.params.TestNet3Params;
+import org.cryptodezirecashj.script.Script.VerifyFlag;
 import com.google.common.base.Charsets;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
@@ -41,9 +41,9 @@ import java.math.BigInteger;
 import java.nio.charset.Charset;
 import java.util.*;
 
-import static org.coin2playj.core.Utils.HEX;
-import static org.coin2playj.script.ScriptOpCodes.OP_0;
-import static org.coin2playj.script.ScriptOpCodes.OP_INVALIDOPCODE;
+import static org.cryptodezirecashj.core.Utils.HEX;
+import static org.cryptodezirecashj.script.ScriptOpCodes.OP_0;
+import static org.cryptodezirecashj.script.ScriptOpCodes.OP_INVALIDOPCODE;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.*;
 import org.junit.Before;

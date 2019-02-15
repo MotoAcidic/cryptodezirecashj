@@ -15,21 +15,21 @@
  * limitations under the License.
  */
 
-package org.coin2playj.wallet;
+package org.cryptodezirecashj.wallet;
 
 import com.google.common.collect.*;
-import org.coin2playj.core.*;
-import org.coin2playj.crypto.*;
-import org.coin2playj.params.*;
-import org.coin2playj.script.*;
-import org.coin2playj.testing.FakeTxBuilder;
-import org.coin2playj.wallet.DefaultRiskAnalysis.*;
+import org.cryptodezirecashj.core.*;
+import org.cryptodezirecashj.crypto.*;
+import org.cryptodezirecashj.params.*;
+import org.cryptodezirecashj.script.*;
+import org.cryptodezirecashj.testing.FakeTxBuilder;
+import org.cryptodezirecashj.wallet.DefaultRiskAnalysis.*;
 import org.junit.*;
 
 import java.util.*;
 
-import static org.coin2playj.core.Coin.*;
-import static org.coin2playj.script.ScriptOpCodes.*;
+import static org.cryptodezirecashj.core.Coin.*;
+import static org.cryptodezirecashj.script.ScriptOpCodes.*;
 import static org.junit.Assert.*;
 
 public class DefaultRiskAnalysisTest {

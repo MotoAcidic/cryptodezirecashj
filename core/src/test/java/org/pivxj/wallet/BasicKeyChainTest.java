@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.coin2playj.wallet;
+package org.cryptodezirecashj.wallet;
 
-import org.coin2playj.core.BloomFilter;
-import org.coin2playj.core.ECKey;
-import org.coin2playj.core.Utils;
-import org.coin2playj.crypto.KeyCrypter;
-import org.coin2playj.crypto.KeyCrypterException;
-import org.coin2playj.crypto.KeyCrypterScrypt;
-import org.coin2playj.utils.Threading;
+import org.cryptodezirecashj.core.BloomFilter;
+import org.cryptodezirecashj.core.ECKey;
+import org.cryptodezirecashj.core.Utils;
+import org.cryptodezirecashj.crypto.KeyCrypter;
+import org.cryptodezirecashj.crypto.KeyCrypterException;
+import org.cryptodezirecashj.crypto.KeyCrypterScrypt;
+import org.cryptodezirecashj.utils.Threading;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
 
-import org.coin2playj.wallet.listeners.AbstractKeyChainEventListener;
+import org.cryptodezirecashj.wallet.listeners.AbstractKeyChainEventListener;
 import org.junit.Before;
 import org.junit.Test;
 

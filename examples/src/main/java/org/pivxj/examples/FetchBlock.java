@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.cryptodezirecashj.examples;
 
-import org.coin2playj.core.*;
-import org.coin2playj.params.TestNet3Params;
-import org.coin2playj.store.BlockStore;
-import org.coin2playj.store.MemoryBlockStore;
-import org.coin2playj.utils.BriefLogFormatter;
+import org.cryptodezirecashj.core.*;
+import org.cryptodezirecashj.params.TestNet3Params;
+import org.cryptodezirecashj.store.BlockStore;
+import org.cryptodezirecashj.store.MemoryBlockStore;
+import org.cryptodezirecashj.utils.BriefLogFormatter;
 
 import java.net.InetAddress;
 import java.util.concurrent.Future;

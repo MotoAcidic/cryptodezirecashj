@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.coin2playj.protocols.channels;
+package org.cryptodezirecashj.protocols.channels;
 
-import org.coin2playj.core.*;
-import org.coin2playj.script.Script;
-import org.coin2playj.script.ScriptBuilder;
-import org.coin2playj.testing.TestWithWallet;
-import org.coin2playj.wallet.SendRequest;
-import org.coin2playj.wallet.Wallet;
+import org.cryptodezirecashj.core.*;
+import org.cryptodezirecashj.script.Script;
+import org.cryptodezirecashj.script.ScriptBuilder;
+import org.cryptodezirecashj.testing.TestWithWallet;
+import org.cryptodezirecashj.wallet.SendRequest;
+import org.cryptodezirecashj.wallet.Wallet;
 
 import com.google.common.collect.Lists;
 import com.google.common.util.concurrent.ListenableFuture;
@@ -40,9 +40,9 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.LinkedBlockingQueue;
 
-import static org.coin2playj.core.Coin.*;
-import static org.coin2playj.testing.FakeTxBuilder.createFakeTx;
-import static org.coin2playj.testing.FakeTxBuilder.makeSolvedTestBlock;
+import static org.cryptodezirecashj.core.Coin.*;
+import static org.cryptodezirecashj.testing.FakeTxBuilder.createFakeTx;
+import static org.cryptodezirecashj.testing.FakeTxBuilder.makeSolvedTestBlock;
 import static org.junit.Assert.*;
 
 @RunWith(Parameterized.class)

@@ -14,10 +14,10 @@
 
 package wallettemplate.utils;
 
-import org.coin2playj.core.listeners.DownloadProgressTracker;
-import org.coin2playj.wallet.Wallet;
-import org.coin2playj.wallet.listeners.WalletChangeEventListener;
-import org.coin2playj.core.*;
+import org.cryptodezirecashj.core.listeners.DownloadProgressTracker;
+import org.cryptodezirecashj.wallet.Wallet;
+import org.cryptodezirecashj.wallet.listeners.WalletChangeEventListener;
+import org.cryptodezirecashj.core.*;
 import javafx.application.Platform;
 import javafx.beans.property.ReadOnlyDoubleProperty;
 import javafx.beans.property.ReadOnlyObjectProperty;

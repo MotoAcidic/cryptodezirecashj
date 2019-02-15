@@ -1,7 +1,7 @@
 package org.darkcoinj;
 
-import org.coin2playj.core.NetworkParameters;
-import org.coin2playj.core.TransactionInput;
+import org.cryptodezirecashj.core.NetworkParameters;
+import org.cryptodezirecashj.core.TransactionInput;
 
 /**
  * Created by Eric on 2/8/2015.

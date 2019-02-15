@@ -15,16 +15,16 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.cryptodezirecashj.examples;
 
-import org.coin2playj.core.listeners.PeerConnectedEventListener;
-import org.coin2playj.core.listeners.PeerDisconnectedEventListener;
-import org.coin2playj.core.NetworkParameters;
-import org.coin2playj.core.Peer;
-import org.coin2playj.core.PeerGroup;
-import org.coin2playj.net.discovery.DnsDiscovery;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.utils.BriefLogFormatter;
+import org.cryptodezirecashj.core.listeners.PeerConnectedEventListener;
+import org.cryptodezirecashj.core.listeners.PeerDisconnectedEventListener;
+import org.cryptodezirecashj.core.NetworkParameters;
+import org.cryptodezirecashj.core.Peer;
+import org.cryptodezirecashj.core.PeerGroup;
+import org.cryptodezirecashj.net.discovery.DnsDiscovery;
+import org.cryptodezirecashj.params.MainNetParams;
+import org.cryptodezirecashj.utils.BriefLogFormatter;
 import com.google.common.collect.Lists;
 
 import javax.swing.*;

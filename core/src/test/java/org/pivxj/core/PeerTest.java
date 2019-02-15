@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.cryptodezirecashj.core;
 
 import com.google.common.collect.*;
-import org.coin2playj.core.listeners.*;
-import org.coin2playj.params.TestNet3Params;
-import org.coin2playj.testing.FakeTxBuilder;
-import org.coin2playj.testing.InboundMessageQueuer;
-import org.coin2playj.testing.TestWithNetworkConnections;
-import org.coin2playj.utils.Threading;
-import org.coin2playj.wallet.Wallet;
-import org.coin2playj.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.cryptodezirecashj.core.listeners.*;
+import org.cryptodezirecashj.params.TestNet3Params;
+import org.cryptodezirecashj.testing.FakeTxBuilder;
+import org.cryptodezirecashj.testing.InboundMessageQueuer;
+import org.cryptodezirecashj.testing.TestWithNetworkConnections;
+import org.cryptodezirecashj.utils.Threading;
+import org.cryptodezirecashj.wallet.Wallet;
+import org.cryptodezirecashj.wallet.listeners.WalletCoinsReceivedEventListener;
 
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.SettableFuture;
@@ -52,8 +52,8 @@ import java.util.concurrent.Future;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import static org.coin2playj.core.Coin.*;
-import static org.coin2playj.testing.FakeTxBuilder.*;
+import static org.cryptodezirecashj.core.Coin.*;
+import static org.cryptodezirecashj.testing.FakeTxBuilder.*;
 import static org.junit.Assert.*;
 
 @RunWith(value = Parameterized.class)

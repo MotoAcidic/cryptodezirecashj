@@ -1,12 +1,12 @@
-package org.coin2playj.core;
+package org.cryptodezirecashj.core;
 
 import com.google.common.util.concurrent.ListenableFuture;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.TestNet2Params;
-import org.coin2playj.store.BlockStore;
-import org.coin2playj.store.MemoryBlockStore;
-import org.coin2playj.utils.BriefLogFormatter;
-import org.coin2playj.wallet.Wallet;
+import org.cryptodezirecashj.params.MainNetParams;
+import org.cryptodezirecashj.params.TestNet2Params;
+import org.cryptodezirecashj.store.BlockStore;
+import org.cryptodezirecashj.store.MemoryBlockStore;
+import org.cryptodezirecashj.utils.BriefLogFormatter;
+import org.cryptodezirecashj.wallet.Wallet;
 import org.junit.*;
 import org.junit.rules.ExpectedException;
 

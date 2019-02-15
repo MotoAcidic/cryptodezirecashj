@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.coin2playj.store;
+package org.cryptodezirecashj.store;
 
-import org.coin2playj.core.Address;
-import org.coin2playj.core.ECKey;
-import org.coin2playj.core.NetworkParameters;
-import org.coin2playj.core.StoredBlock;
-import org.coin2playj.params.UnitTestParams;
+import org.cryptodezirecashj.core.Address;
+import org.cryptodezirecashj.core.ECKey;
+import org.cryptodezirecashj.core.NetworkParameters;
+import org.cryptodezirecashj.core.StoredBlock;
+import org.cryptodezirecashj.params.UnitTestParams;
 import org.junit.Test;
 
 import java.io.File;

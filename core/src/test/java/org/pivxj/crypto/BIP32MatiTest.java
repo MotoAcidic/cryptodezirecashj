@@ -1,8 +1,8 @@
-package org.coin2playj.crypto;
+package org.cryptodezirecashj.crypto;
 
-import org.coin2playj.core.Address;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.wallet.DeterministicKeyChain;
+import org.cryptodezirecashj.core.Address;
+import org.cryptodezirecashj.params.MainNetParams;
+import org.cryptodezirecashj.wallet.DeterministicKeyChain;
 import org.junit.Test;
 
 import java.security.SecureRandom;

@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.cryptodezirecashj.core;
 
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.Networks;
-import org.coin2playj.params.TestNet3Params;
-import org.coin2playj.script.Script;
-import org.coin2playj.script.ScriptBuilder;
+import org.cryptodezirecashj.params.MainNetParams;
+import org.cryptodezirecashj.params.Networks;
+import org.cryptodezirecashj.params.TestNet3Params;
+import org.cryptodezirecashj.script.Script;
+import org.cryptodezirecashj.script.ScriptBuilder;
 import org.junit.Test;
 
 import java.io.ByteArrayInputStream;
@@ -31,7 +31,7 @@ import java.io.ObjectOutputStream;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.coin2playj.core.Utils.HEX;
+import static org.cryptodezirecashj.core.Utils.HEX;
 import static org.junit.Assert.*;
 
 public class AddressTest {

@@ -15,20 +15,20 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.cryptodezirecashj.examples;
 
 import joptsimple.OptionParser;
 import joptsimple.OptionSet;
 import joptsimple.OptionSpec;
-import org.coin2playj.core.Coin;
-import org.coin2playj.core.NetworkParameters;
-import org.coin2playj.core.Sha256Hash;
-import org.coin2playj.core.VerificationException;
-import org.coin2playj.kits.WalletAppKit;
-import org.coin2playj.params.RegTestParams;
-import org.coin2playj.protocols.channels.*;
-import org.coin2playj.utils.BriefLogFormatter;
-import org.coin2playj.wallet.WalletExtension;
+import org.cryptodezirecashj.core.Coin;
+import org.cryptodezirecashj.core.NetworkParameters;
+import org.cryptodezirecashj.core.Sha256Hash;
+import org.cryptodezirecashj.core.VerificationException;
+import org.cryptodezirecashj.kits.WalletAppKit;
+import org.cryptodezirecashj.params.RegTestParams;
+import org.cryptodezirecashj.protocols.channels.*;
+import org.cryptodezirecashj.utils.BriefLogFormatter;
+import org.cryptodezirecashj.wallet.WalletExtension;
 
 import com.google.common.collect.ImmutableList;
 

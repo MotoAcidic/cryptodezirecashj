@@ -12,10 +12,10 @@
  * limitations under the License.
  */
 
-package org.coin2playj.testing;
+package org.cryptodezirecashj.testing;
 
-import org.coin2playj.wallet.Wallet;
-import org.coin2playj.wallet.WalletExtension;
+import org.cryptodezirecashj.wallet.Wallet;
+import org.cryptodezirecashj.wallet.WalletExtension;
 
 import java.util.Arrays;
 

@@ -15,17 +15,17 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.cryptodezirecashj.core;
 
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.TestNet2Params;
-import org.coin2playj.params.UnitTestParams;
-import org.coin2playj.store.BlockStore;
-import org.coin2playj.store.MemoryBlockStore;
-import org.coin2playj.testing.FakeTxBuilder;
-import org.coin2playj.utils.BriefLogFormatter;
-import org.coin2playj.wallet.Wallet;
-import org.coin2playj.wallet.Wallet.BalanceType;
+import org.cryptodezirecashj.params.MainNetParams;
+import org.cryptodezirecashj.params.TestNet2Params;
+import org.cryptodezirecashj.params.UnitTestParams;
+import org.cryptodezirecashj.store.BlockStore;
+import org.cryptodezirecashj.store.MemoryBlockStore;
+import org.cryptodezirecashj.testing.FakeTxBuilder;
+import org.cryptodezirecashj.utils.BriefLogFormatter;
+import org.cryptodezirecashj.wallet.Wallet;
+import org.cryptodezirecashj.wallet.Wallet.BalanceType;
 
 import com.google.common.util.concurrent.ListenableFuture;
 import org.junit.rules.ExpectedException;
@@ -38,9 +38,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import static org.coin2playj.core.Coin.*;
-import static org.coin2playj.testing.FakeTxBuilder.createFakeBlock;
-import static org.coin2playj.testing.FakeTxBuilder.createFakeTx;
+import static org.cryptodezirecashj.core.Coin.*;
+import static org.cryptodezirecashj.testing.FakeTxBuilder.createFakeBlock;
+import static org.cryptodezirecashj.testing.FakeTxBuilder.createFakeTx;
 import static org.junit.Assert.*;
 
 // Handling of chain splits/reorgs are in ChainSplitTests.

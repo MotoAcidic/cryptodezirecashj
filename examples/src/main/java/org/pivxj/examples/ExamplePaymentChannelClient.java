@@ -15,22 +15,22 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.cryptodezirecashj.examples;
 
 import joptsimple.OptionParser;
 import joptsimple.OptionSet;
 import joptsimple.OptionSpec;
-import org.coin2playj.core.*;
-import org.coin2playj.kits.WalletAppKit;
-import org.coin2playj.params.RegTestParams;
-import org.coin2playj.protocols.channels.PaymentChannelClient;
-import org.coin2playj.protocols.channels.PaymentChannelClientConnection;
-import org.coin2playj.protocols.channels.StoredPaymentChannelClientStates;
-import org.coin2playj.protocols.channels.ValueOutOfRangeException;
-import org.coin2playj.utils.BriefLogFormatter;
-import org.coin2playj.utils.Threading;
-import org.coin2playj.wallet.Wallet;
-import org.coin2playj.wallet.WalletExtension;
+import org.cryptodezirecashj.core.*;
+import org.cryptodezirecashj.kits.WalletAppKit;
+import org.cryptodezirecashj.params.RegTestParams;
+import org.cryptodezirecashj.protocols.channels.PaymentChannelClient;
+import org.cryptodezirecashj.protocols.channels.PaymentChannelClientConnection;
+import org.cryptodezirecashj.protocols.channels.StoredPaymentChannelClientStates;
+import org.cryptodezirecashj.protocols.channels.ValueOutOfRangeException;
+import org.cryptodezirecashj.utils.BriefLogFormatter;
+import org.cryptodezirecashj.utils.Threading;
+import org.cryptodezirecashj.wallet.Wallet;
+import org.cryptodezirecashj.wallet.WalletExtension;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.util.concurrent.FutureCallback;
@@ -46,7 +46,7 @@ import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutionException;
 
-import static org.coin2playj.core.Coin.CENT;
+import static org.cryptodezirecashj.core.Coin.CENT;
 
 /**
  * Simple client that connects to the given host, opens a channel, and pays one cent.

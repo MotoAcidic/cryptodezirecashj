@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.coin2playj.uri;
+package org.cryptodezirecashj.uri;
 
-import org.coin2playj.core.Address;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.TestNet3Params;
+import org.cryptodezirecashj.core.Address;
+import org.cryptodezirecashj.params.MainNetParams;
+import org.cryptodezirecashj.params.TestNet3Params;
 import com.google.common.collect.ImmutableList;
 import org.junit.Test;
-import org.coin2playj.core.CoinDefinition;
+import org.cryptodezirecashj.core.CoinDefinition;
 
-import static org.coin2playj.core.Coin.*;
-import org.coin2playj.core.NetworkParameters;
+import static org.cryptodezirecashj.core.Coin.*;
+import org.cryptodezirecashj.core.NetworkParameters;
 import static org.junit.Assert.*;
 
 public class SendURITest {

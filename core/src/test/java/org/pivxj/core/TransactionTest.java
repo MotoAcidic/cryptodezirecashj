@@ -15,19 +15,19 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.cryptodezirecashj.core;
 
-import org.coin2playj.core.TransactionConfidence.*;
-import org.coin2playj.crypto.TransactionSignature;
-import org.coin2playj.params.*;
-import org.coin2playj.script.*;
-import org.coin2playj.testing.*;
+import org.cryptodezirecashj.core.TransactionConfidence.*;
+import org.cryptodezirecashj.crypto.TransactionSignature;
+import org.cryptodezirecashj.params.*;
+import org.cryptodezirecashj.script.*;
+import org.cryptodezirecashj.testing.*;
 import org.easymock.*;
 import org.junit.*;
 
 import java.math.BigInteger;
 import java.util.*;
-import static org.coin2playj.core.Utils.HEX;
+import static org.cryptodezirecashj.core.Utils.HEX;
 
 import static org.easymock.EasyMock.*;
 import static org.junit.Assert.*;

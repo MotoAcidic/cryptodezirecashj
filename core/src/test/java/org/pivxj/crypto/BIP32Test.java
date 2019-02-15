@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-package org.coin2playj.crypto;
+package org.cryptodezirecashj.crypto;
 
-import org.coin2playj.core.Base58;
+import org.cryptodezirecashj.core.Base58;
 import com.google.common.base.Functions;
 import com.google.common.base.Joiner;
 import com.google.common.collect.Iterables;
-import org.coin2playj.core.NetworkParameters;
-import org.coin2playj.params.MainNetParams;
+import org.cryptodezirecashj.core.NetworkParameters;
+import org.cryptodezirecashj.params.MainNetParams;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,7 +31,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
-import static org.coin2playj.core.Utils.HEX;
+import static org.cryptodezirecashj.core.Utils.HEX;
 import static org.junit.Assert.assertEquals;
 
 /**

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.coin2playj.utils;
+package org.cryptodezirecashj.utils;
 
-import org.coin2playj.core.Utils;
+import org.cryptodezirecashj.core.Utils;
 
 import org.junit.Before;
 import org.junit.Test;

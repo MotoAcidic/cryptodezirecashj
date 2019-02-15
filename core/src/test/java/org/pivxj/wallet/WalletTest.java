@@ -15,51 +15,51 @@
  * limitations under the License.
  */
 
-package org.coin2playj.wallet;
+package org.cryptodezirecashj.wallet;
 
-import org.coin2playj.core.listeners.TransactionConfidenceEventListener;
-import org.coin2playj.core.AbstractBlockChain;
-import org.coin2playj.core.Address;
-import org.coin2playj.core.Block;
-import org.coin2playj.core.BlockChain;
-import org.coin2playj.core.Coin;
-import org.coin2playj.core.ECKey;
-import org.coin2playj.core.InsufficientMoneyException;
-import org.coin2playj.core.PeerAddress;
-import org.coin2playj.core.Sha256Hash;
-import org.coin2playj.core.StoredBlock;
-import org.coin2playj.core.Transaction;
-import org.coin2playj.core.TransactionConfidence;
-import org.coin2playj.core.TransactionInput;
-import org.coin2playj.core.TransactionOutPoint;
-import org.coin2playj.core.TransactionOutput;
-import org.coin2playj.core.Utils;
-import org.coin2playj.core.VerificationException;
-import org.coin2playj.core.TransactionConfidence.ConfidenceType;
-import org.coin2playj.crypto.*;
-import org.coin2playj.script.Script;
-import org.coin2playj.script.ScriptBuilder;
-import org.coin2playj.signers.StatelessTransactionSigner;
-import org.coin2playj.signers.TransactionSigner;
-import org.coin2playj.store.BlockStoreException;
-import org.coin2playj.store.MemoryBlockStore;
-import org.coin2playj.testing.*;
-import org.coin2playj.utils.ExchangeRate;
-import org.coin2playj.utils.Fiat;
-import org.coin2playj.utils.Threading;
-import org.coin2playj.wallet.Wallet.BalanceType;
-import org.coin2playj.wallet.WalletTransaction.Pool;
-import org.coin2playj.wallet.listeners.KeyChainEventListener;
-import org.coin2playj.wallet.listeners.WalletChangeEventListener;
-import org.coin2playj.wallet.listeners.WalletCoinsReceivedEventListener;
-import org.coin2playj.wallet.listeners.WalletCoinsSentEventListener;
+import org.cryptodezirecashj.core.listeners.TransactionConfidenceEventListener;
+import org.cryptodezirecashj.core.AbstractBlockChain;
+import org.cryptodezirecashj.core.Address;
+import org.cryptodezirecashj.core.Block;
+import org.cryptodezirecashj.core.BlockChain;
+import org.cryptodezirecashj.core.Coin;
+import org.cryptodezirecashj.core.ECKey;
+import org.cryptodezirecashj.core.InsufficientMoneyException;
+import org.cryptodezirecashj.core.PeerAddress;
+import org.cryptodezirecashj.core.Sha256Hash;
+import org.cryptodezirecashj.core.StoredBlock;
+import org.cryptodezirecashj.core.Transaction;
+import org.cryptodezirecashj.core.TransactionConfidence;
+import org.cryptodezirecashj.core.TransactionInput;
+import org.cryptodezirecashj.core.TransactionOutPoint;
+import org.cryptodezirecashj.core.TransactionOutput;
+import org.cryptodezirecashj.core.Utils;
+import org.cryptodezirecashj.core.VerificationException;
+import org.cryptodezirecashj.core.TransactionConfidence.ConfidenceType;
+import org.cryptodezirecashj.crypto.*;
+import org.cryptodezirecashj.script.Script;
+import org.cryptodezirecashj.script.ScriptBuilder;
+import org.cryptodezirecashj.signers.StatelessTransactionSigner;
+import org.cryptodezirecashj.signers.TransactionSigner;
+import org.cryptodezirecashj.store.BlockStoreException;
+import org.cryptodezirecashj.store.MemoryBlockStore;
+import org.cryptodezirecashj.testing.*;
+import org.cryptodezirecashj.utils.ExchangeRate;
+import org.cryptodezirecashj.utils.Fiat;
+import org.cryptodezirecashj.utils.Threading;
+import org.cryptodezirecashj.wallet.Wallet.BalanceType;
+import org.cryptodezirecashj.wallet.WalletTransaction.Pool;
+import org.cryptodezirecashj.wallet.listeners.KeyChainEventListener;
+import org.cryptodezirecashj.wallet.listeners.WalletChangeEventListener;
+import org.cryptodezirecashj.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.cryptodezirecashj.wallet.listeners.WalletCoinsSentEventListener;
 import org.easymock.EasyMock;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.protobuf.ByteString;
-import org.coin2playj.wallet.Protos.Wallet.EncryptionType;
+import org.cryptodezirecashj.wallet.Protos.Wallet.EncryptionType;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Ignore;
@@ -79,9 +79,9 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 
-import static org.coin2playj.core.Coin.*;
-import static org.coin2playj.core.Utils.HEX;
-import static org.coin2playj.testing.FakeTxBuilder.*;
+import static org.cryptodezirecashj.core.Coin.*;
+import static org.cryptodezirecashj.core.Utils.HEX;
+import static org.cryptodezirecashj.testing.FakeTxBuilder.*;
 import static org.easymock.EasyMock.createMock;
 import static org.easymock.EasyMock.replay;
 import static com.google.common.base.Preconditions.checkNotNull;
@@ -807,7 +807,7 @@ public class WalletTest extends TestWithWallet {
         Transaction send1 = checkNotNull(wallet.createSend(OTHER_ADDRESS, value2));
         Transaction send2 = checkNotNull(wallet.createSend(OTHER_ADDRESS, value2));
         byte[] buf = send1.bitcoinSerialize();
-        buf[43] = 0;  // Break the signature: coin2playj won't check in SPV mode and this is easier than other mutations.
+        buf[43] = 0;  // Break the signature: cryptodezirecashj won't check in SPV mode and this is easier than other mutations.
         send1 = PARAMS.getDefaultSerializer().makeTransaction(buf);
         wallet.commitTx(send2);
         wallet.allowSpendingUnconfirmedTransactions();
@@ -1779,7 +1779,7 @@ public class WalletTest extends TestWithWallet {
     @Test
     public void autosaveImmediate() throws Exception {
         // Test that the wallet will save itself automatically when it changes.
-        File f = File.createTempFile("coin2playj-unit-test", null);
+        File f = File.createTempFile("cryptodezirecashj-unit-test", null);
         Sha256Hash hash1 = Sha256Hash.of(f);
         // Start with zero delay and ensure the wallet file changes after adding a key.
         wallet.autosaveToFile(f, 0, TimeUnit.SECONDS, null);
@@ -1801,7 +1801,7 @@ public class WalletTest extends TestWithWallet {
         // an auto-save cycle of 1 second.
         final File[] results = new File[2];
         final CountDownLatch latch = new CountDownLatch(3);
-        File f = File.createTempFile("coin2playj-unit-test", null);
+        File f = File.createTempFile("cryptodezirecashj-unit-test", null);
         Sha256Hash hash1 = Sha256Hash.of(f);
         wallet.autosaveToFile(f, 1, TimeUnit.SECONDS,
                 new WalletFiles.Listener() {

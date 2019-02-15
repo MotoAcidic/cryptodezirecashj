@@ -12,16 +12,16 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.cryptodezirecashj.examples;
 
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
-import org.coin2playj.core.*;
-import org.coin2playj.kits.WalletAppKit;
-import org.coin2playj.params.TestNet3Params;
-import org.coin2playj.wallet.Wallet;
-import org.coin2playj.wallet.Wallet.BalanceType;
+import org.cryptodezirecashj.core.*;
+import org.cryptodezirecashj.kits.WalletAppKit;
+import org.cryptodezirecashj.params.TestNet3Params;
+import org.cryptodezirecashj.wallet.Wallet;
+import org.cryptodezirecashj.wallet.Wallet.BalanceType;
 
 import java.io.File;
 

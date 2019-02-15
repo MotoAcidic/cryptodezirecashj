@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.cryptodezirecashj.core;
 
 import com.google.common.collect.*;
-import org.coin2playj.core.TransactionConfidence.*;
-import org.coin2playj.store.*;
-import org.coin2playj.testing.*;
-import org.coin2playj.wallet.*;
+import org.cryptodezirecashj.core.TransactionConfidence.*;
+import org.cryptodezirecashj.store.*;
+import org.cryptodezirecashj.testing.*;
+import org.cryptodezirecashj.wallet.*;
 import org.junit.*;
 import org.junit.runner.*;
 import org.junit.runners.*;
@@ -29,7 +29,7 @@ import org.junit.runners.*;
 import java.math.*;
 import java.util.*;
 
-import static org.coin2playj.core.Utils.*;
+import static org.cryptodezirecashj.core.Utils.*;
 import static org.junit.Assert.*;
 
 @RunWith(value = Parameterized.class)

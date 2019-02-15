@@ -15,17 +15,17 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.cryptodezirecashj.core;
 
 import com.google.common.base.Stopwatch;
 import com.google.common.collect.*;
 import com.google.common.net.*;
 import com.google.common.util.concurrent.*;
-import org.coin2playj.core.listeners.*;
-import org.coin2playj.net.discovery.*;
-import org.coin2playj.testing.*;
-import org.coin2playj.utils.*;
-import org.coin2playj.wallet.Wallet;
+import org.cryptodezirecashj.core.listeners.*;
+import org.cryptodezirecashj.net.discovery.*;
+import org.cryptodezirecashj.testing.*;
+import org.cryptodezirecashj.utils.*;
+import org.cryptodezirecashj.wallet.Wallet;
 import org.junit.*;
 import org.junit.runner.*;
 import org.junit.runners.*;
@@ -36,7 +36,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.*;
 
-import static org.coin2playj.core.Coin.*;
+import static org.cryptodezirecashj.core.Coin.*;
 import static org.junit.Assert.*;
 
 

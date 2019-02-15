@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.cryptodezirecashj.core;
 
-import org.coin2playj.params.UnitTestParams;
+import org.cryptodezirecashj.params.UnitTestParams;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.coin2playj.core.Utils.HEX;
+import static org.cryptodezirecashj.core.Utils.HEX;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 

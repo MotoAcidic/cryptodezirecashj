@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.cryptodezirecashj.core;
 
-import org.coin2playj.params.*;
-import org.coin2playj.testing.*;
-import org.coin2playj.utils.*;
+import org.cryptodezirecashj.params.*;
+import org.cryptodezirecashj.testing.*;
+import org.cryptodezirecashj.utils.*;
 import org.junit.*;
 
 import java.net.*;
 
-import static org.coin2playj.core.Coin.*;
+import static org.cryptodezirecashj.core.Coin.*;
 import static org.junit.Assert.*;
 
 public class TxConfidenceTableTest {

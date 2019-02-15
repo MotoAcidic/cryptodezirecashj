@@ -1,9 +1,9 @@
 package org.darkcoinj;
 
-import org.coin2playj.core.*;
-import org.coin2playj.script.Script;
-import org.coin2playj.utils.ContextPropagatingThreadFactory;
-import org.coin2playj.utils.Threading;
+import org.cryptodezirecashj.core.*;
+import org.cryptodezirecashj.script.Script;
+import org.cryptodezirecashj.utils.ContextPropagatingThreadFactory;
+import org.cryptodezirecashj.utils.Threading;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

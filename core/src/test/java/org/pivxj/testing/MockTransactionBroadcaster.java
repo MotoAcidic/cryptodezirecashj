@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.coin2playj.testing;
+package org.cryptodezirecashj.testing;
 
-import org.coin2playj.core.*;
-import org.coin2playj.utils.Threading;
-import org.coin2playj.wallet.Wallet;
+import org.cryptodezirecashj.core.*;
+import org.cryptodezirecashj.utils.Threading;
+import org.cryptodezirecashj.wallet.Wallet;
 
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;

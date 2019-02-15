@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.cryptodezirecashj.core;
 
 import junit.framework.TestCase;
 import org.junit.Test;

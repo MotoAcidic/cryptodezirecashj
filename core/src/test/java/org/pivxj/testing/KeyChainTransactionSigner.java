@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.coin2playj.testing;
+package org.cryptodezirecashj.testing;
 
-import org.coin2playj.core.Sha256Hash;
-import org.coin2playj.crypto.ChildNumber;
-import org.coin2playj.crypto.DeterministicKey;
-import org.coin2playj.signers.CustomTransactionSigner;
-import org.coin2playj.wallet.DeterministicKeyChain;
+import org.cryptodezirecashj.core.Sha256Hash;
+import org.cryptodezirecashj.crypto.ChildNumber;
+import org.cryptodezirecashj.crypto.DeterministicKey;
+import org.cryptodezirecashj.signers.CustomTransactionSigner;
+import org.cryptodezirecashj.wallet.DeterministicKeyChain;
 import com.google.common.collect.ImmutableList;
 
 import java.util.List;

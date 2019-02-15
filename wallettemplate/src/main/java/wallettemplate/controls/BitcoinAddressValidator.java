@@ -14,9 +14,9 @@
 
 package wallettemplate.controls;
 
-import org.coin2playj.core.Address;
-import org.coin2playj.core.AddressFormatException;
-import org.coin2playj.core.NetworkParameters;
+import org.cryptodezirecashj.core.Address;
+import org.cryptodezirecashj.core.AddressFormatException;
+import org.cryptodezirecashj.core.NetworkParameters;
 import javafx.scene.Node;
 import javafx.scene.control.TextField;
 import wallettemplate.utils.TextFieldValidator;

@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.cryptodezirecashj.core;
 
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.UnitTestParams;
-import org.coin2playj.store.BlockStore;
-import org.coin2playj.store.MemoryBlockStore;
-import org.coin2playj.wallet.Wallet;
+import org.cryptodezirecashj.params.MainNetParams;
+import org.cryptodezirecashj.params.UnitTestParams;
+import org.cryptodezirecashj.store.BlockStore;
+import org.cryptodezirecashj.store.MemoryBlockStore;
+import org.cryptodezirecashj.wallet.Wallet;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -29,10 +29,10 @@ import java.io.ByteArrayOutputStream;
 import java.nio.ByteBuffer;
 import java.util.Arrays;
 
-import static org.coin2playj.core.Coin.*;
-import static org.coin2playj.core.Utils.HEX;
-import static org.coin2playj.testing.FakeTxBuilder.createFakeBlock;
-import static org.coin2playj.testing.FakeTxBuilder.createFakeTx;
+import static org.cryptodezirecashj.core.Coin.*;
+import static org.cryptodezirecashj.core.Utils.HEX;
+import static org.cryptodezirecashj.testing.FakeTxBuilder.createFakeBlock;
+import static org.cryptodezirecashj.testing.FakeTxBuilder.createFakeTx;
 import static org.junit.Assert.*;
 
 public class ParseByteCacheTest {

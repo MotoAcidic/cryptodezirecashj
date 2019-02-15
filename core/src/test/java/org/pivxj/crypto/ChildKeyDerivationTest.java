@@ -15,15 +15,15 @@
  * limitations under the License.
  */
 
-package org.coin2playj.crypto;
+package org.cryptodezirecashj.crypto;
 
-import org.coin2playj.core.*;
-import org.coin2playj.params.*;
-import org.coin2playj.wallet.DeterministicKeyChain;
+import org.cryptodezirecashj.core.*;
+import org.cryptodezirecashj.params.*;
+import org.cryptodezirecashj.wallet.DeterministicKeyChain;
 import org.junit.*;
 import org.spongycastle.crypto.params.*;
 
-import static org.coin2playj.core.Utils.*;
+import static org.cryptodezirecashj.core.Utils.*;
 import static org.junit.Assert.*;
 
 /**

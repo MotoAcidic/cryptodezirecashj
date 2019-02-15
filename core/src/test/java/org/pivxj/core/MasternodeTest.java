@@ -1,6 +1,6 @@
-package org.coin2playj.core;
+package org.cryptodezirecashj.core;
 
-import org.coin2playj.params.MainNetParams;
+import org.cryptodezirecashj.params.MainNetParams;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 /**

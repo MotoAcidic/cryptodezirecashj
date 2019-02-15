@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.coin2playj.utils;
+package org.cryptodezirecashj.utils;
 
-import static org.coin2playj.core.Coin.CENT;
-import static org.coin2playj.core.Coin.COIN;
-import static org.coin2playj.core.Coin.SATOSHI;
-import static org.coin2playj.core.Coin.ZERO;
+import static org.cryptodezirecashj.core.Coin.CENT;
+import static org.cryptodezirecashj.core.Coin.COIN;
+import static org.cryptodezirecashj.core.Coin.SATOSHI;
+import static org.cryptodezirecashj.core.Coin.ZERO;
 import static org.junit.Assert.assertEquals;
 
 import java.util.Locale;
 
 import org.junit.Test;
 
-import org.coin2playj.core.Coin;
+import org.cryptodezirecashj.core.Coin;
 
 public class MonetaryFormatTest {
 

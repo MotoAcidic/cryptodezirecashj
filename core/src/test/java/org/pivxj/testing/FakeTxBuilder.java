@@ -15,20 +15,20 @@
  * limitations under the License.
  */
 
-package org.coin2playj.testing;
+package org.cryptodezirecashj.testing;
 
-import org.coin2playj.core.*;
-import org.coin2playj.crypto.TransactionSignature;
-import org.coin2playj.script.ScriptBuilder;
-import org.coin2playj.store.BlockStore;
-import org.coin2playj.store.BlockStoreException;
+import org.cryptodezirecashj.core.*;
+import org.cryptodezirecashj.crypto.TransactionSignature;
+import org.cryptodezirecashj.script.ScriptBuilder;
+import org.cryptodezirecashj.store.BlockStore;
+import org.cryptodezirecashj.store.BlockStoreException;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.Random;
 
-import static org.coin2playj.core.Coin.*;
+import static org.cryptodezirecashj.core.Coin.*;
 import static com.google.common.base.Preconditions.checkState;
 
 public class FakeTxBuilder {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.cryptodezirecashj.examples;
 
 import java.io.IOException;
 import java.math.BigInteger;
@@ -24,24 +24,24 @@ import java.util.EnumSet;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
-import org.coin2playj.core.Coin;
-import org.coin2playj.core.ECKey;
-import org.coin2playj.core.NetworkParameters;
-import org.coin2playj.core.ScriptException;
-import org.coin2playj.core.Transaction;
-import org.coin2playj.core.TransactionInput;
-import org.coin2playj.core.TransactionOutput;
-import org.coin2playj.core.Utils;
-import org.coin2playj.crypto.TransactionSignature;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.script.Script;
-import org.coin2playj.script.ScriptBuilder;
-import org.coin2playj.script.ScriptChunk;
-import static org.coin2playj.script.ScriptOpCodes.getOpCodeName;
-import org.coin2playj.signers.LocalTransactionSigner;
-import org.coin2playj.signers.TransactionSigner.ProposedTransaction;
-import org.coin2playj.wallet.KeyBag;
-import org.coin2playj.wallet.RedeemData;
+import org.cryptodezirecashj.core.Coin;
+import org.cryptodezirecashj.core.ECKey;
+import org.cryptodezirecashj.core.NetworkParameters;
+import org.cryptodezirecashj.core.ScriptException;
+import org.cryptodezirecashj.core.Transaction;
+import org.cryptodezirecashj.core.TransactionInput;
+import org.cryptodezirecashj.core.TransactionOutput;
+import org.cryptodezirecashj.core.Utils;
+import org.cryptodezirecashj.crypto.TransactionSignature;
+import org.cryptodezirecashj.params.MainNetParams;
+import org.cryptodezirecashj.script.Script;
+import org.cryptodezirecashj.script.ScriptBuilder;
+import org.cryptodezirecashj.script.ScriptChunk;
+import static org.cryptodezirecashj.script.ScriptOpCodes.getOpCodeName;
+import org.cryptodezirecashj.signers.LocalTransactionSigner;
+import org.cryptodezirecashj.signers.TransactionSigner.ProposedTransaction;
+import org.cryptodezirecashj.wallet.KeyBag;
+import org.cryptodezirecashj.wallet.RedeemData;
 
 /**
  * Test case generator for transactions with low-S and high-S signatures, to

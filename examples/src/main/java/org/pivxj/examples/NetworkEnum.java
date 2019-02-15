@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.cryptodezirecashj.examples;
 
-import org.coin2playj.core.NetworkParameters;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.RegTestParams;
-import org.coin2playj.params.TestNet3Params;
+import org.cryptodezirecashj.core.NetworkParameters;
+import org.cryptodezirecashj.params.MainNetParams;
+import org.cryptodezirecashj.params.RegTestParams;
+import org.cryptodezirecashj.params.TestNet3Params;
 
 public enum NetworkEnum {
     MAIN,

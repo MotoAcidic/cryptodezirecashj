@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.cryptodezirecashj.examples;
 
-import org.coin2playj.core.listeners.PeerConnectedEventListener;
-import org.coin2playj.core.listeners.PeerDisconnectedEventListener;
-import org.coin2playj.core.NetworkParameters;
-import org.coin2playj.core.Peer;
-import org.coin2playj.core.PeerAddress;
-import org.coin2playj.core.VersionMessage;
-import org.coin2playj.net.discovery.DnsDiscovery;
-import org.coin2playj.net.discovery.PeerDiscoveryException;
-import org.coin2playj.net.NioClientManager;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.utils.BriefLogFormatter;
+import org.cryptodezirecashj.core.listeners.PeerConnectedEventListener;
+import org.cryptodezirecashj.core.listeners.PeerDisconnectedEventListener;
+import org.cryptodezirecashj.core.NetworkParameters;
+import org.cryptodezirecashj.core.Peer;
+import org.cryptodezirecashj.core.PeerAddress;
+import org.cryptodezirecashj.core.VersionMessage;
+import org.cryptodezirecashj.net.discovery.DnsDiscovery;
+import org.cryptodezirecashj.net.discovery.PeerDiscoveryException;
+import org.cryptodezirecashj.net.NioClientManager;
+import org.cryptodezirecashj.params.MainNetParams;
+import org.cryptodezirecashj.utils.BriefLogFormatter;
 import com.google.common.collect.Lists;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;

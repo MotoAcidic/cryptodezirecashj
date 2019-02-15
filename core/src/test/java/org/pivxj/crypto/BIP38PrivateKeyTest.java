@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.coin2playj.crypto;
+package org.cryptodezirecashj.crypto;
 
-import org.coin2playj.core.ECKey;
-import org.coin2playj.crypto.BIP38PrivateKey.BadPassphraseException;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.TestNet3Params;
+import org.cryptodezirecashj.core.ECKey;
+import org.cryptodezirecashj.crypto.BIP38PrivateKey.BadPassphraseException;
+import org.cryptodezirecashj.params.MainNetParams;
+import org.cryptodezirecashj.params.TestNet3Params;
 import org.junit.Test;
 
 import java.io.ByteArrayInputStream;

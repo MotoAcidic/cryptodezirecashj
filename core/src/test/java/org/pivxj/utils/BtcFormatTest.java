@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.coin2playj.utils;
+package org.cryptodezirecashj.utils;
 
-import org.coin2playj.core.Coin;
+import org.cryptodezirecashj.core.Coin;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -29,12 +29,12 @@ import java.util.HashSet;
 import java.util.Locale;
 import java.util.Set;
 
-import static org.coin2playj.core.Coin.*;
-import static org.coin2playj.core.NetworkParameters.MAX_MONEY;
-import static org.coin2playj.utils.BtcAutoFormat.Style.CODE;
-import static org.coin2playj.utils.BtcAutoFormat.Style.SYMBOL;
-import static org.coin2playj.utils.BtcFixedFormat.REPEATING_DOUBLETS;
-import static org.coin2playj.utils.BtcFixedFormat.REPEATING_TRIPLETS;
+import static org.cryptodezirecashj.core.Coin.*;
+import static org.cryptodezirecashj.core.NetworkParameters.MAX_MONEY;
+import static org.cryptodezirecashj.utils.BtcAutoFormat.Style.CODE;
+import static org.cryptodezirecashj.utils.BtcAutoFormat.Style.SYMBOL;
+import static org.cryptodezirecashj.utils.BtcFixedFormat.REPEATING_DOUBLETS;
+import static org.cryptodezirecashj.utils.BtcFixedFormat.REPEATING_TRIPLETS;
 import static java.text.NumberFormat.Field.DECIMAL_SEPARATOR;
 import static java.util.Locale.*;
 import static org.junit.Assert.*;

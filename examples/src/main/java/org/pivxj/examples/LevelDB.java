@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.cryptodezirecashj.examples;
 
 import java.net.InetAddress;
-import org.coin2playj.core.FullPrunedBlockChain;
-import org.coin2playj.core.PeerGroup;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.store.FullPrunedBlockStore;
-import org.coin2playj.store.LevelDBFullPrunedBlockStore;
+import org.cryptodezirecashj.core.FullPrunedBlockChain;
+import org.cryptodezirecashj.core.PeerGroup;
+import org.cryptodezirecashj.params.MainNetParams;
+import org.cryptodezirecashj.store.FullPrunedBlockStore;
+import org.cryptodezirecashj.store.LevelDBFullPrunedBlockStore;
 
 public class LevelDB {
     public static void main(String[] args) throws Exception {

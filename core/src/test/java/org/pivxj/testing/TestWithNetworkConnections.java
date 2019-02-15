@@ -15,18 +15,18 @@
  * limitations under the License.
  */
 
-package org.coin2playj.testing;
+package org.cryptodezirecashj.testing;
 
-import org.coin2playj.core.listeners.PeerDisconnectedEventListener;
-import org.coin2playj.core.listeners.PreMessageReceivedEventListener;
-import org.coin2playj.core.*;
-import org.coin2playj.net.*;
-import org.coin2playj.params.UnitTestParams;
-import org.coin2playj.store.BlockStore;
-import org.coin2playj.store.MemoryBlockStore;
-import org.coin2playj.utils.BriefLogFormatter;
-import org.coin2playj.utils.Threading;
-import org.coin2playj.wallet.Wallet;
+import org.cryptodezirecashj.core.listeners.PeerDisconnectedEventListener;
+import org.cryptodezirecashj.core.listeners.PreMessageReceivedEventListener;
+import org.cryptodezirecashj.core.*;
+import org.cryptodezirecashj.net.*;
+import org.cryptodezirecashj.params.UnitTestParams;
+import org.cryptodezirecashj.store.BlockStore;
+import org.cryptodezirecashj.store.MemoryBlockStore;
+import org.cryptodezirecashj.utils.BriefLogFormatter;
+import org.cryptodezirecashj.utils.Threading;
+import org.cryptodezirecashj.wallet.Wallet;
 
 import com.google.common.util.concurrent.SettableFuture;
 

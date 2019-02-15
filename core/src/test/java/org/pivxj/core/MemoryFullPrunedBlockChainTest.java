@@ -12,11 +12,11 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.cryptodezirecashj.core;
 
-import org.coin2playj.store.BlockStoreException;
-import org.coin2playj.store.FullPrunedBlockStore;
-import org.coin2playj.store.MemoryFullPrunedBlockStore;
+import org.cryptodezirecashj.store.BlockStoreException;
+import org.cryptodezirecashj.store.FullPrunedBlockStore;
+import org.cryptodezirecashj.store.MemoryFullPrunedBlockStore;
 
 /**
  * A MemoryStore implementation of the FullPrunedBlockStoreTest

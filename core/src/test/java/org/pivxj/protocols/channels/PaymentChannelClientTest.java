@@ -12,11 +12,11 @@
  * limitations under the License.
  */
 
-package org.coin2playj.protocols.channels;
+package org.cryptodezirecashj.protocols.channels;
 
-import org.coin2playj.core.*;
-import org.coin2playj.wallet.Wallet;
-import org.coin2playj.wallet.WalletExtension;
+import org.cryptodezirecashj.core.*;
+import org.cryptodezirecashj.wallet.Wallet;
+import org.cryptodezirecashj.wallet.WalletExtension;
 import org.bitcoin.paymentchannel.Protos;
 import org.easymock.Capture;
 import org.easymock.EasyMock;

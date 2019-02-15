@@ -1,6 +1,6 @@
 package org.darkcoinj;
 
-import org.coin2playj.core.*;
+import org.cryptodezirecashj.core.*;
 
 import java.util.ArrayList;
 

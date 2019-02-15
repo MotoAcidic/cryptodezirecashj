@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.coin2playj.protocols.payments;
+package org.cryptodezirecashj.protocols.payments;
 
-import org.coin2playj.core.*;
-import org.coin2playj.crypto.X509Utils;
-import org.coin2playj.params.TestNet3Params;
-import org.coin2playj.params.UnitTestParams;
-import org.coin2playj.protocols.payments.PaymentProtocol.Output;
-import org.coin2playj.protocols.payments.PaymentProtocol.PkiVerificationData;
-import org.coin2playj.protocols.payments.PaymentProtocolException.PkiVerificationException;
-import org.coin2playj.script.ScriptBuilder;
-import org.coin2playj.testing.FakeTxBuilder;
+import org.cryptodezirecashj.core.*;
+import org.cryptodezirecashj.crypto.X509Utils;
+import org.cryptodezirecashj.params.TestNet3Params;
+import org.cryptodezirecashj.params.UnitTestParams;
+import org.cryptodezirecashj.protocols.payments.PaymentProtocol.Output;
+import org.cryptodezirecashj.protocols.payments.PaymentProtocol.PkiVerificationData;
+import org.cryptodezirecashj.protocols.payments.PaymentProtocolException.PkiVerificationException;
+import org.cryptodezirecashj.script.ScriptBuilder;
+import org.cryptodezirecashj.testing.FakeTxBuilder;
 import org.bitcoin.protocols.payments.Protos;
 import org.bitcoin.protocols.payments.Protos.Payment;
 import org.bitcoin.protocols.payments.Protos.PaymentACK;

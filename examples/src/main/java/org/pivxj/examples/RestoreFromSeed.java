@@ -12,15 +12,15 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.cryptodezirecashj.examples;
 
-import org.coin2playj.core.listeners.DownloadProgressTracker;
-import org.coin2playj.core.*;
-import org.coin2playj.net.discovery.DnsDiscovery;
-import org.coin2playj.params.TestNet3Params;
-import org.coin2playj.store.SPVBlockStore;
-import org.coin2playj.wallet.DeterministicSeed;
-import org.coin2playj.wallet.Wallet;
+import org.cryptodezirecashj.core.listeners.DownloadProgressTracker;
+import org.cryptodezirecashj.core.*;
+import org.cryptodezirecashj.net.discovery.DnsDiscovery;
+import org.cryptodezirecashj.params.TestNet3Params;
+import org.cryptodezirecashj.store.SPVBlockStore;
+import org.cryptodezirecashj.wallet.DeterministicSeed;
+import org.cryptodezirecashj.wallet.Wallet;
 
 import java.io.File;
 

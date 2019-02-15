@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-package org.coin2playj.crypto;
+package org.cryptodezirecashj.crypto;
 
-import org.coin2playj.core.Utils;
-import org.coin2playj.utils.BriefLogFormatter;
+import org.cryptodezirecashj.core.Utils;
+import org.cryptodezirecashj.utils.BriefLogFormatter;
 import com.google.protobuf.ByteString;
 
-import org.coin2playj.wallet.Protos;
-import org.coin2playj.wallet.Protos.ScryptParameters;
+import org.cryptodezirecashj.wallet.Protos;
+import org.cryptodezirecashj.wallet.Protos.ScryptParameters;
 import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;

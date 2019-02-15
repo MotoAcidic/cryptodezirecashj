@@ -12,13 +12,13 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.cryptodezirecashj.examples;
 
-import org.coin2playj.core.NetworkParameters;
-import org.coin2playj.core.Utils;
-import org.coin2playj.params.TestNet3Params;
-import org.coin2playj.wallet.DeterministicSeed;
-import org.coin2playj.wallet.Wallet;
+import org.cryptodezirecashj.core.NetworkParameters;
+import org.cryptodezirecashj.core.Utils;
+import org.cryptodezirecashj.params.TestNet3Params;
+import org.cryptodezirecashj.wallet.DeterministicSeed;
+import org.cryptodezirecashj.wallet.Wallet;
 
 /**
  * The following example shows you how to create a deterministic seed from a hierarchical deterministic wallet represented as a mnemonic code.

@@ -15,30 +15,30 @@
  * limitations under the License.
  */
 
-package org.coin2playj.store;
+package org.cryptodezirecashj.store;
 
-import org.coin2playj.core.*;
-import org.coin2playj.core.Transaction.Purpose;
-import org.coin2playj.core.TransactionConfidence.ConfidenceType;
-import org.coin2playj.crypto.DeterministicKey;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.UnitTestParams;
-import org.coin2playj.script.ScriptBuilder;
-import org.coin2playj.testing.FakeTxBuilder;
-import org.coin2playj.testing.FooWalletExtension;
-import org.coin2playj.utils.BriefLogFormatter;
-import org.coin2playj.utils.Threading;
-import org.coin2playj.wallet.DeterministicKeyChain;
-import org.coin2playj.wallet.KeyChain;
+import org.cryptodezirecashj.core.*;
+import org.cryptodezirecashj.core.Transaction.Purpose;
+import org.cryptodezirecashj.core.TransactionConfidence.ConfidenceType;
+import org.cryptodezirecashj.crypto.DeterministicKey;
+import org.cryptodezirecashj.params.MainNetParams;
+import org.cryptodezirecashj.params.UnitTestParams;
+import org.cryptodezirecashj.script.ScriptBuilder;
+import org.cryptodezirecashj.testing.FakeTxBuilder;
+import org.cryptodezirecashj.testing.FooWalletExtension;
+import org.cryptodezirecashj.utils.BriefLogFormatter;
+import org.cryptodezirecashj.utils.Threading;
+import org.cryptodezirecashj.wallet.DeterministicKeyChain;
+import org.cryptodezirecashj.wallet.KeyChain;
 import com.google.protobuf.ByteString;
 
-import org.coin2playj.wallet.MarriedKeyChain;
-import org.coin2playj.wallet.Protos;
-import org.coin2playj.wallet.UnreadableWalletException;
-import org.coin2playj.wallet.Wallet;
-import org.coin2playj.wallet.WalletExtension;
-import org.coin2playj.wallet.WalletProtobufSerializer;
-import org.coin2playj.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.cryptodezirecashj.wallet.MarriedKeyChain;
+import org.cryptodezirecashj.wallet.Protos;
+import org.cryptodezirecashj.wallet.UnreadableWalletException;
+import org.cryptodezirecashj.wallet.Wallet;
+import org.cryptodezirecashj.wallet.WalletExtension;
+import org.cryptodezirecashj.wallet.WalletProtobufSerializer;
+import org.cryptodezirecashj.wallet.listeners.WalletCoinsReceivedEventListener;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -52,8 +52,8 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.Set;
 
-import static org.coin2playj.core.Coin.*;
-import static org.coin2playj.testing.FakeTxBuilder.createFakeTx;
+import static org.cryptodezirecashj.core.Coin.*;
+import static org.cryptodezirecashj.testing.FakeTxBuilder.createFakeTx;
 import static org.junit.Assert.*;
 import static com.google.common.base.Preconditions.checkNotNull;
 

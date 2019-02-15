@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.coin2playj.wallet;
+package org.cryptodezirecashj.wallet;
 
-import org.coin2playj.core.*;
-import org.coin2playj.crypto.*;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.utils.BriefLogFormatter;
-import org.coin2playj.utils.Threading;
-import org.coin2playj.wallet.listeners.KeyChainEventListener;
+import org.cryptodezirecashj.core.*;
+import org.cryptodezirecashj.crypto.*;
+import org.cryptodezirecashj.params.MainNetParams;
+import org.cryptodezirecashj.utils.BriefLogFormatter;
+import org.cryptodezirecashj.utils.Threading;
+import org.cryptodezirecashj.wallet.listeners.KeyChainEventListener;
 
 import com.google.common.collect.ImmutableList;
 import org.junit.Before;

@@ -15,19 +15,19 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.cryptodezirecashj.core;
 
 import com.google.common.collect.Lists;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.UnitTestParams;
-import org.coin2playj.script.Script;
-import org.coin2playj.store.BlockStoreException;
-import org.coin2playj.store.FullPrunedBlockStore;
-import org.coin2playj.utils.BlockFileLoader;
-import org.coin2playj.utils.BriefLogFormatter;
-import org.coin2playj.wallet.SendRequest;
-import org.coin2playj.wallet.Wallet;
-import org.coin2playj.wallet.WalletTransaction;
+import org.cryptodezirecashj.params.MainNetParams;
+import org.cryptodezirecashj.params.UnitTestParams;
+import org.cryptodezirecashj.script.Script;
+import org.cryptodezirecashj.store.BlockStoreException;
+import org.cryptodezirecashj.store.FullPrunedBlockStore;
+import org.cryptodezirecashj.utils.BlockFileLoader;
+import org.cryptodezirecashj.utils.BriefLogFormatter;
+import org.cryptodezirecashj.wallet.SendRequest;
+import org.cryptodezirecashj.wallet.Wallet;
+import org.cryptodezirecashj.wallet.WalletTransaction;
 import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -38,7 +38,7 @@ import java.lang.ref.WeakReference;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.coin2playj.core.Coin.FIFTY_COINS;
+import static org.cryptodezirecashj.core.Coin.FIFTY_COINS;
 import static org.junit.Assert.*;
 import org.junit.rules.ExpectedException;
 

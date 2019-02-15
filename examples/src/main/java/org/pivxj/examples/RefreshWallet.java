@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.cryptodezirecashj.examples;
 
-import org.coin2playj.core.*;
-import org.coin2playj.params.TestNet3Params;
-import org.coin2playj.store.BlockStore;
-import org.coin2playj.store.MemoryBlockStore;
-import org.coin2playj.wallet.Wallet;
-import org.coin2playj.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.cryptodezirecashj.core.*;
+import org.cryptodezirecashj.params.TestNet3Params;
+import org.cryptodezirecashj.store.BlockStore;
+import org.cryptodezirecashj.store.MemoryBlockStore;
+import org.cryptodezirecashj.wallet.Wallet;
+import org.cryptodezirecashj.wallet.listeners.WalletCoinsReceivedEventListener;
 
 import java.io.File;
 

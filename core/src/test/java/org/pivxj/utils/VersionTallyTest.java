@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.coin2playj.utils;
+package org.cryptodezirecashj.utils;
 
-import org.coin2playj.core.BlockChain;
-import org.coin2playj.core.Context;
-import org.coin2playj.core.NetworkParameters;
-import org.coin2playj.core.StoredBlock;
-import org.coin2playj.params.UnitTestParams;
-import org.coin2playj.store.BlockStore;
-import org.coin2playj.store.BlockStoreException;
-import org.coin2playj.store.MemoryBlockStore;
-import org.coin2playj.testing.FakeTxBuilder;
+import org.cryptodezirecashj.core.BlockChain;
+import org.cryptodezirecashj.core.Context;
+import org.cryptodezirecashj.core.NetworkParameters;
+import org.cryptodezirecashj.core.StoredBlock;
+import org.cryptodezirecashj.params.UnitTestParams;
+import org.cryptodezirecashj.store.BlockStore;
+import org.cryptodezirecashj.store.BlockStoreException;
+import org.cryptodezirecashj.store.MemoryBlockStore;
+import org.cryptodezirecashj.testing.FakeTxBuilder;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.Before;

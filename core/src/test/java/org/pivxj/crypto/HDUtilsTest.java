@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.coin2playj.crypto;
+package org.cryptodezirecashj.crypto;
 
 import com.google.common.collect.ImmutableList;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.coin2playj.core.Utils.HEX;
+import static org.cryptodezirecashj.core.Utils.HEX;
 import java.util.List;
 
 public class HDUtilsTest {

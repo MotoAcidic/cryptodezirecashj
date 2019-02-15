@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.coin2playj.testing;
+package org.cryptodezirecashj.testing;
 
 import com.google.common.base.*;
 import com.google.common.util.concurrent.*;
-import org.coin2playj.core.*;
-import org.coin2playj.net.*;
-import org.coin2playj.store.*;
-import org.coin2playj.utils.*;
+import org.cryptodezirecashj.core.*;
+import org.cryptodezirecashj.net.*;
+import org.cryptodezirecashj.store.*;
+import org.cryptodezirecashj.utils.*;
 
 import java.net.*;
 import java.util.concurrent.*;

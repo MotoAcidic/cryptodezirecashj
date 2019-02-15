@@ -15,9 +15,9 @@
 package wallettemplate;
 
 import javafx.scene.layout.HBox;
-import org.coin2playj.core.*;
-import org.coin2playj.wallet.SendRequest;
-import org.coin2playj.wallet.Wallet;
+import org.cryptodezirecashj.core.*;
+import org.cryptodezirecashj.wallet.SendRequest;
+import org.cryptodezirecashj.wallet.Wallet;
 
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;

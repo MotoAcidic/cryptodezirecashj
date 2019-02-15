@@ -12,14 +12,14 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.cryptodezirecashj.core;
 
 import com.google.common.collect.ImmutableList;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.script.Script;
-import org.coin2playj.script.ScriptBuilder;
-import org.coin2playj.testing.TestWithWallet;
-import org.coin2playj.wallet.SendRequest;
+import org.cryptodezirecashj.params.MainNetParams;
+import org.cryptodezirecashj.script.Script;
+import org.cryptodezirecashj.script.ScriptBuilder;
+import org.cryptodezirecashj.testing.TestWithWallet;
+import org.cryptodezirecashj.wallet.SendRequest;
 import org.hamcrest.CoreMatchers;
 import org.junit.After;
 import org.junit.Before;

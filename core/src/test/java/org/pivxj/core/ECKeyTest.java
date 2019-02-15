@@ -15,25 +15,25 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.cryptodezirecashj.core;
 
-import org.coin2playj.core.ECKey.ECDSASignature;
-import org.coin2playj.crypto.EncryptedData;
-import org.coin2playj.crypto.KeyCrypter;
-import org.coin2playj.crypto.KeyCrypterScrypt;
-import org.coin2playj.crypto.TransactionSignature;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.TestNet3Params;
-import org.coin2playj.params.UnitTestParams;
-import org.coin2playj.utils.BriefLogFormatter;
+import org.cryptodezirecashj.core.ECKey.ECDSASignature;
+import org.cryptodezirecashj.crypto.EncryptedData;
+import org.cryptodezirecashj.crypto.KeyCrypter;
+import org.cryptodezirecashj.crypto.KeyCrypterScrypt;
+import org.cryptodezirecashj.crypto.TransactionSignature;
+import org.cryptodezirecashj.params.MainNetParams;
+import org.cryptodezirecashj.params.TestNet3Params;
+import org.cryptodezirecashj.params.UnitTestParams;
+import org.cryptodezirecashj.utils.BriefLogFormatter;
 import com.google.common.collect.Lists;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.ListeningExecutorService;
 import com.google.common.util.concurrent.MoreExecutors;
 import com.google.protobuf.ByteString;
-import org.coin2playj.wallet.Protos;
-import org.coin2playj.wallet.Protos.ScryptParameters;
+import org.cryptodezirecashj.wallet.Protos;
+import org.cryptodezirecashj.wallet.Protos.ScryptParameters;
 import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -50,8 +50,8 @@ import java.util.Random;
 import java.util.concurrent.Callable;
 import java.util.concurrent.Executors;
 
-import static org.coin2playj.core.Utils.HEX;
-import static org.coin2playj.core.Utils.reverseBytes;
+import static org.cryptodezirecashj.core.Utils.HEX;
+import static org.cryptodezirecashj.core.Utils.reverseBytes;
 import static com.google.common.base.Preconditions.checkNotNull;
 import static org.junit.Assert.*;
 
