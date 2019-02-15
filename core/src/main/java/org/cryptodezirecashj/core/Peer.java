@@ -498,8 +498,8 @@ public class Peer extends PeerSocketHandler {
         if (!(m instanceof VersionMessage || m instanceof VersionAck || m instanceof SporkMessage
                 || (versionHandshakeFuture.isDone() && !versionHandshakeFuture.isCancelled()))) {
             String reason = "  " + ((m instanceof RejectMessage) ? ((RejectMessage) m).getReasonString() : "");
-            throw new ProtocolException(
-                    "Received " + m.getClass().getSimpleName() + " before version handshake is complete."+ reason);
+        //    throw new ProtocolException(
+          //          "Received " + m.getClass().getSimpleName() + " before version handshake is complete."+ reason);
         }
 
         if (m instanceof Ping) {
