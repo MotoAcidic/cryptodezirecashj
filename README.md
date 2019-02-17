@@ -1,5 +1,5 @@
 ### Welcome to cryptodezirecashj
-![alt text](https://cdn.discordapp.com/attachments/497476919475044361/544271546697515009/Logo_with_tex_1t.png)
+![alt text](https://cdn.discordapp.com/attachments/497476919475044361/546257601302888489/address.png)
 
 The cryptodezirecashj library is a Java implementation of the CryptoDezireCash protocol, which allows it to maintain a wallet and send/receive transactions without needing a local copy of CryptoDezireCash Core. It comes with full documentation and some example apps showing how to use it.
 
