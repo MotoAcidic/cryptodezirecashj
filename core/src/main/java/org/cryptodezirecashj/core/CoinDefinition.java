@@ -79,7 +79,7 @@ public class CoinDefinition {
     //
     // CDZC 0.12
     //
-    public static final int PROTOCOL_VERSION = 70915;          //version.h PROTOCOL_VERSION
+    public static final int PROTOCOL_VERSION = 70916;          //version.h PROTOCOL_VERSION
     public static final int MIN_PROTOCOL_VERSION = 70915;        //version.h MIN_PROTO_VERSION
 
     public static final int BLOCK_CURRENTVERSION = 2;   //CBlock::CURRENT_VERSION
